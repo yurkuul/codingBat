@@ -31,10 +31,7 @@ public class SleepIn {
      * @since 0.0.1
      */
     public static boolean sleepIn(boolean weekday, boolean vacation) {
-        if(!weekday || vacation) {
-            return true;
-        }
-        return false;
+        return !weekday || vacation;
     }
 
 }
