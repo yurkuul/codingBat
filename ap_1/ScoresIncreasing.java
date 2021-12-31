@@ -33,13 +33,11 @@ public class ScoresIncreasing {
      * @since 0.0.1
      */
     public static boolean scoresIncreasing (int[] scores) {
-        boolean checkIncreasing = false;
+        boolean checkIncreasing = true;
         for (int i = 1; i < scores.length; i++) {
-            if (scores[i] >= scores[i-1]) {
-                checkIncreasing = true;
-            } else {
+            if (!(scores[i] >= scores[i-1])) {
                 checkIncreasing = false;
-                 break;
+                break;
             }
         }
         return checkIncreasing;
