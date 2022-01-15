@@ -11,14 +11,14 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p154669
  * @since 17.0.1
- * @version 0.0.2
+ * @version 0.0.3
  */
 public class Factorial {
     public static void main(String[] args) {
+        System.out.println("factorial(1) -> " + factorial(1));
+        System.out.println("factorial(2) -> " + factorial(2));
+        System.out.println("factorial(3) -> " + factorial(3));
         try {
-            System.out.println("factorial(1) -> " + factorial(1));
-            System.out.println("factorial(2) -> " + factorial(2));
-            System.out.println("factorial(3) -> " + factorial(3));
             System.out.println("factorial(-5) -> " + factorial(-5));
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -31,12 +31,12 @@ public class Factorial {
      * 
      * @param n int value used for finding its factorial
      * @return int value that is the factorial of n
-     * @throws IllegalArgumentException when int n < 0
-     * @since 0.0.2
+     * @throws IllegalArgumentException when int n is negative
+     * @since 0.0.3
      */
-    public static int factorial(int n) throws Exception {
+    public static int factorial(int n) throws IllegalArgumentException {
         if (n < 0) {
-            throw new Exception("factorial(" + n + ") -> IllegalArgumentException");
+            throw new IllegalArgumentException("factorial(" + n + ") -> IllegalArgumentException");
         }
         if (n == 0) {
             return 1;
