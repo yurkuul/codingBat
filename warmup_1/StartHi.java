@@ -10,7 +10,7 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p191022
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class StartHi {
     public static void main(String[] args) {
@@ -24,9 +24,12 @@ public class StartHi {
      * 
      * @param word Used to check if "hi" is at the beginning.
      * @return True if "hi" is at the beginning of word.
-     * @since 0.0.1
+     * @since 0.0.2
      */
     public static boolean startHi(String word) {
-        return word.substring(0, 2).equals("hi");
+        if (word.length() >= 2) {
+            return word.substring(0,2).equals("hi");
+        }
+        return false;
     }
 }
