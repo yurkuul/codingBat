@@ -16,7 +16,7 @@ import java.util.Arrays;
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p136585
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class CenteredAverage {
     public static void main(String[] args) {
@@ -41,7 +41,7 @@ public class CenteredAverage {
     *
     * @param nums Array of numbers.
     * @return The average of nums excluding the largest and smallest values.
-    * @since 0.0.1
+    * @since 0.0.2
     */
     public static int centeredAverage(int[] nums) {
         int largest = nums[0];
@@ -50,19 +50,8 @@ public class CenteredAverage {
         for (int num : nums) {
             largest = Math.max(largest, num);
             smallest = Math.min(smallest, num);
+            total += num;
         }
-        boolean checkLarge = false;
-        boolean checkSmall = false;
-        for (int i = 0; i < nums.length; i++) {
-            if (!checkLarge && nums[i] == largest) {
-                nums[i] = 0;
-                checkLarge = true;
-            } else if (!checkSmall && nums[i] == smallest) {
-                nums[i] = 0;
-                checkSmall = true;
-            }
-            total += nums[i];
-        }
-        return (int)(total/(nums.length-2));
+        return (total-largest-smallest)/(nums.length-2);
     }
 }
