@@ -9,7 +9,7 @@ end_other('abc', 'abXabc') → True
 '''
 
 def end_other(a, b):
-    return (a.lower().startswith(b.lower()) or a.lower().endswith(b.lower())) or (b.lower().startswith(a.lower()) or b.lower().endswith(a.lower()))
+    return (a.lower().endswith(b.lower())) or  b.lower().endswith(a.lower())
     
 print("end_other('ab', 'ab12') -> " + str(end_other('ab', 'ab12')))
 print("end_other('Hiabc', 'abc') -> " + str(end_other('Hiabc', 'abc')))
