@@ -11,3 +11,11 @@ see https://codingbat.com/prob/p181624
 
 def first_last6(nums):
     return nums[0] == 6 or nums[len(nums)-1] == 6
+
+array1 = [1, 2, 6]
+array2 = [6, 1, 2, 3]
+array3 = [13, 6, 1, 2, 3]
+
+print("first_last6( " + str(array1) + ") -> " + str(first_last6(array1)))
+print("first_last6( " + str(array2) + ") -> " + str(first_last6(array2)))
+print("first_last6( " + str(array3) + ") -> " + str(first_last6(array3)))
