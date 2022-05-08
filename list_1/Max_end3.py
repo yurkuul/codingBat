@@ -8,15 +8,12 @@ max_end3([2, 11, 3]) → [3, 3, 3]
 
 author LZ-FSDev
 see https://codingbat.com/prob/p135290
+version 0.0.2
 '''
 
 def max_end3(nums):
-    if (nums[0] > nums[len(nums)-1]):
-        nums[0:3] = [nums[0], nums[0], nums[0]]
-    elif (nums[0] < nums[len(nums)-1]):
-        nums[0:3] = [nums[len(nums)-1], nums[len(nums)-1], nums[len(nums)-1]]
-    else:
-        nums[0:3] = [nums[0], nums[0], nums[0]]
+    bigger = max(nums[0], nums[len(nums)-1])
+    nums[0:3] = [bigger, bigger, bigger]
     return nums
 
 array1 = [1, 2, 3]
