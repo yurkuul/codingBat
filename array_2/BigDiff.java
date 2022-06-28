@@ -14,16 +14,18 @@ import java.util.Arrays;
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p196640
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class BigDiff {
     public static void main(String[] args) {
         int[] array1 = {10, 3, 5, 6};
         int[] array2 = {7, 2, 10, 9};
         int[] array3 = {2, 10, 7, 2};
+        int[] array4 = {1, 6, 3, 9};
         System.out.println("bigDiff(" + Arrays.toString(array1) + ") -> " + bigDiff(array1));
         System.out.println("bigDiff(" + Arrays.toString(array2) + ") -> " + bigDiff(array2));
         System.out.println("bigDiff(" + Arrays.toString(array3) + ") -> " + bigDiff(array3));
+        System.out.println("bigDiff(" + Arrays.toString(array4) + ") -> " + bigDiff(array4));
     }
 
     /**
