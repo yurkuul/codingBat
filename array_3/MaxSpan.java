@@ -14,16 +14,18 @@ import java.util.Arrays;
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p189576
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class MaxSpan {
     public static void main(String[] args) {
        int[] array1 = {1, 2, 1, 1, 3};
        int[] array2 = {1, 4, 2, 1, 4, 1, 4};
        int[] array3 = {1, 4, 2, 1, 4, 4, 4};
+       int[] array4 = {1, 4, 2, 3, 1, 1, 1};
        System.out.println("maxSpan(" + Arrays.toString(array1) + ") -> " + maxSpan(array1));
        System.out.println("maxSpan(" + Arrays.toString(array2) + ") -> " + maxSpan(array2));
        System.out.println("maxSpan(" + Arrays.toString(array3) + ") -> " + maxSpan(array3));
+       System.out.println("maxSpan(" + Arrays.toString(array4) + ") -> " + maxSpan(array4));
     } 
 
     /**
