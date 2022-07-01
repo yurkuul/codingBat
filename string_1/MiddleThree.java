@@ -10,13 +10,14 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p115863
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class MiddleThree {
     public static void main(String[] args) {
         System.out.println("middleThree(\"Candy\") -> " + middleThree("Candy"));
         System.out.println("middleThree(\"and\") -> " + middleThree("and"));
         System.out.println("middleThree(\"solving\") -> " + middleThree("solving"));
+        System.out.println("middleThree(\"meows\") -> " + middleThree("meows"));
     }
 
     /**
