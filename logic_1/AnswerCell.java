@@ -11,7 +11,7 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p110973
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class AnswerCell {
     public static void main(String[] args) {
@@ -21,6 +21,8 @@ public class AnswerCell {
                             + answerCell(false, false, true));
         System.out.println("answerCell(true, false, false) -> "
                             + answerCell(true, false, false));
+        System.out.println("answerCell(true, false, false) -> "
+                            + answerCell(false, true, true));
     }
 
     /**
