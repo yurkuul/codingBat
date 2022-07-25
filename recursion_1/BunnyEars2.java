@@ -12,13 +12,14 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p107330
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class BunnyEars2 {
     public static void main(String[] args) {
         System.out.println("bunnyEars2(0) -> " + bunnyEars2(0));
         System.out.println("bunnyEars2(1) -> " + bunnyEars2(1));
         System.out.println("bunnyEars2(2) -> " + bunnyEars2(2));
+        System.out.println("bunnyEars2(3) -> " + bunnyEars2(3));
     }
 
     /**
