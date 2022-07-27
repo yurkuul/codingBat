@@ -16,9 +16,12 @@
  */
 public class PrefixAgain {
     public static void main(String[] args) {
-        System.out.println("prefixAgain(\"abXYabc\", 1) -> " + prefixAgain("abXYabc", 1));
-        System.out.println("prefixAgain(\"abXYabc\", 2) -> " + prefixAgain("abXYabc", 2));
-        System.out.println("prefixAgain(\"abXYabc\", 3) -> " + prefixAgain("abXYabc", 3));
+        System.out.println("prefixAgain(\"abXYabc\", 1) -> "
+                             + prefixAgain("abXYabc", 1));
+        System.out.println("prefixAgain(\"abXYabc\", 2) -> "
+                             + prefixAgain("abXYabc", 2));
+        System.out.println("prefixAgain(\"abXYabc\", 3) -> "
+                             + prefixAgain("abXYabc", 3));
     }
 
     /**
