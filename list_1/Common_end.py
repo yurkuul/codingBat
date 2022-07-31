@@ -16,6 +16,7 @@ array1 = [1, 2, 3]
 array2 = [7, 3]
 array3 = [7, 3, 2]
 array4 = [1, 3]
+array5 = [9, 5, 2]
 
 print("common_end(" + str(array1) + ", " + str(array2) + ") -> " \
     + str(common_end(array1, array2)))
@@ -23,3 +24,5 @@ print("common_end(" + str(array1) + ", " + str(array3) + ") -> " \
     + str(common_end(array1, array3)))
 print("common_end(" + str(array1) + ", " + str(array4) + ") -> " \
     + str(common_end(array1, array4)))
+print("common_end(" + str(array1) + ", " + str(array5) + ") -> " \
+    + str(common_end(array1, array5)))
