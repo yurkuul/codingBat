@@ -23,7 +23,9 @@ def big_diff(nums):
 array1 = [10, 3, 5, 6]
 array2 = [7, 2, 10, 9]
 array3 = [2, 10, 7, 2]
+array4 = [1, 6, 8, 3]
 
 print("big_diff(" + str(array1) + ") -> " + str(big_diff(array1)))
 print("big_diff(" + str(array2) + ") -> " + str(big_diff(array2)))
 print("big_diff(" + str(array3) + ") -> " + str(big_diff(array3)))
+print("big_diff(" + str(array4) + ") -> " + str(big_diff(array4)))
