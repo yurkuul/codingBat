@@ -16,16 +16,22 @@ import java.util.Arrays;
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p159339
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class Fix34 {
     public static void main(String[] args) {
         int[] array1 = {1, 3, 1, 4};
         int[] array2 = {1, 3, 1, 4, 4, 3, 1};
         int[] array3 = {3, 2, 2, 4};
-        System.out.println("fix34(" + Arrays.toString(array1) + ") -> " + Arrays.toString(fix34(array1)));
-        System.out.println("fix34(" + Arrays.toString(array2) + ") -> " + Arrays.toString(fix34(array2)));
-        System.out.println("fix34(" + Arrays.toString(array3) + ") -> " + Arrays.toString(fix34(array3)));
+        int[] array4 = {1, 4, 3, 4, 3, 3};
+        System.out.println("fix34(" + Arrays.toString(array1) + ") -> "
+                           + Arrays.toString(fix34(array1)));
+        System.out.println("fix34(" + Arrays.toString(array2) + ") -> "
+                           + Arrays.toString(fix34(array2)));
+        System.out.println("fix34(" + Arrays.toString(array3) + ") -> "
+                           + Arrays.toString(fix34(array3)));
+        System.out.println("fix34(" + Arrays.toString(array4) + ") -> "
+                           + Arrays.toString(fix34(array4)));
     }
 
     /**
@@ -44,8 +50,6 @@ public class Fix34 {
         int index = 0;
 
         for (int i = 0; i < array.length; i++) {
-            //System.out.println("A " + array[i]);
-            //System.out.println("B " + nums[index]);
             if (nums[index] == 3) {
                 array[i] = nums[index];
                 array[i+1] = 4;
