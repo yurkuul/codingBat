@@ -20,3 +20,4 @@ def lone_sum(a, b, c):
 print("lone_sum(1, 2, 3) -> " + str(lone_sum(1, 2, 3)))
 print("lone_sum(3, 2, 3) -> " + str(lone_sum(3, 2, 3)))
 print("lone_sum(3, 3, 3) -> " + str(lone_sum(3, 3, 3)))
+print("lone_sum(99, 11, 17) -> " + str(lone_sum(99, 11, 17)))
