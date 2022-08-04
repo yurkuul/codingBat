@@ -11,16 +11,18 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p190968
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class Sum2 {
     public static void main(String[] args) {
         int[] array1 = {1, 2, 3};
         int[] array2 = {1, 1};
         int[] array3 = {1, 1, 1, 1};
+        int[] array4 = {1, 7, 2, 5};
         System.out.println("sum2([1, 2, 3]) -> " + sum2(array1));
         System.out.println("sum2([1, 1]) -> " + sum2(array2));
         System.out.println("sum2([1, 1, 1, 1]) -> " + sum2(array3));
+        System.out.println("sum2([1, 7, 2, 5]) -> " + sum2(array4));
     }
     
     /**
