@@ -15,13 +15,15 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p199171
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class CountYZ {
     public static void main(String[] args) {
         System.out.println("countYZ(\"fez day\") -> " + countYZ("fez day"));
         System.out.println("countYZ(\"day fez\") -> " + countYZ("day fez"));
         System.out.println("countYZ(\"day fyyyz\") -> " + countYZ("day fyyyz"));
+        System.out.println("countYZ(\"rawrzn yayz yzyzy\") -> "
+                           + countYZ("rawrzn yayz yzyzy"));
     }
 
     /**
@@ -38,8 +40,9 @@ public class CountYZ {
     public static int countYZ(String str) {
         int counter = 0;
         for (int i = 0; i < str.length(); i++) {
-            if (str.substring(i, i+1).toLowerCase().equals("y") || str.substring(i, i+1).toLowerCase().equals("z")) {
-                if (i+1 < str.length() && !Character.isLetter(str.charAt(i+1))) {
+            if (str.substring(i, i+1).toLowerCase().equals("y")
+                || str.substring(i, i+1).toLowerCase().equals("z")) {
+                if (i+1 < str.length() && !Character.isLetter(str.charAt(i+1))){
                     counter++;
                 } else if (str.substring(i+1).equals("")) {
                     counter++;
