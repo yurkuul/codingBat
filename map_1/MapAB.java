@@ -15,7 +15,7 @@ import java.util.Map;
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p107259
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class MapAB {
     public static void main(String[] args) {
@@ -26,9 +26,14 @@ public class MapAB {
         map2.put("a", "Hi");
         Map<String, String> map3 = new HashMap<String, String>();
         map3.put("b", "There");
+        Map<String, String> map4 = new HashMap<String, String>();
+        map4.put("ab", "Test");
+        map4.put("a", "Test1");
+        map4.put("b", "Test2");
         System.out.println("mapBully(" + map1 + ") -> " + mapAB(map1));
         System.out.println("mapBully(" + map2 + ") -> " + mapAB(map2));
         System.out.println("mapBully(" + map3 + ") -> " + mapAB(map3));
+        System.out.println("mapBully(" + map4 + ") -> " + mapAB(map4));
     }
 
     /**
