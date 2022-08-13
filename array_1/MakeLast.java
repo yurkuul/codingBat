@@ -15,19 +15,22 @@ import java.util.Arrays;
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p137188
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class MakeLast {
     public static void main(String[] args) {
         int[] array1 = {4, 5, 6};
         int[] array2 = {1, 2};
         int[] array3 = {3};
+        int[] array4 = {0};
         System.out.println("makeLast(" + Arrays.toString(array1) + ") -> "
                              + Arrays.toString(makeLast(array1)));
         System.out.println("makeLast(" + Arrays.toString(array2) + ") -> "
                              + Arrays.toString(makeLast(array2)));
         System.out.println("makeLast(" + Arrays.toString(array3) + ") -> "
                              + Arrays.toString(makeLast(array3)));
+        System.out.println("makeLast(" + Arrays.toString(array4) + ") -> "
+                             + Arrays.toString(makeLast(array4)));
     }
 
     /**
