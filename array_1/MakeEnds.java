@@ -13,16 +13,19 @@ import java.util.Arrays;
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p101230
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class MakeEnds {
     public static void main(String[] args) {
         int[] array1 = {1, 2, 3};
         int[] array2 = {1, 2, 3, 4};
         int[] array3 = {7, 4, 6, 2};
-        System.out.println(Arrays.toString(makeEnds(array1)) + " -> [1, 3]");
-        System.out.println(Arrays.toString(makeEnds(array2)) + " -> [1, 4]");
-        System.out.println(Arrays.toString(makeEnds(array3)) + " -> [7, 2]");
+        System.out.println(Arrays.toString(makeEnds(array1)) + " -> "
+                           + Arrays.toString(makeEnds(array1));
+        System.out.println(Arrays.toString(makeEnds(array2)) + " -> "
+                           + Arrays.toString(makeEnds(array2));
+        System.out.println(Arrays.toString(makeEnds(array3)) + " -> "
+                           + Arrays.toString(makeEnds(array3));
     }
 
     /**
