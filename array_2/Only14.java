@@ -11,19 +11,22 @@ import java.util.Arrays;
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p186672
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class Only14 {
     public static void main(String[] args) {
         int[] array1 = {1, 4, 1, 4};
         int[] array2 = {1, 4, 2, 4};
         int[] array3 = {1, 1};
+        int[] array4 = {4, 4};
         System.out.println("only14(" + Arrays.toString(array1) + ") -> "
                             + only14(array1));
         System.out.println("only14(" + Arrays.toString(array2) + ") -> "
                             + only14(array2));
         System.out.println("only14(" + Arrays.toString(array3) + ") -> "
                             + only14(array3));
+        System.out.println("only14(" + Arrays.toString(array4) + ") -> "
+                            + only14(array4));
     }
 
     /**
