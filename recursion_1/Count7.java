@@ -12,13 +12,14 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p101409
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class Count7 {
     public static void main(String[] args) {
         System.out.println("count7(717) -> " + count7(717));
         System.out.println("count7(7) -> " + count7(7));
         System.out.println("count7(123) -> " + count7(123));
+        System.out.println("count7(771836) -> " + count7(771836));
     }
 
     /**
