@@ -19,3 +19,4 @@ def front_times(str, n):
 print("front_times('Chocolate', 2) -> " + front_times('Chocolate', 2))
 print("front_times('Chocolate', 3) -> " + front_times('Chocolate', 3))
 print("front_times('Abc', 3) -> " + front_times('Abc', 3))
+print("front_times('t', 5) -> " + front_times('t', 5))
