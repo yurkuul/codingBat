@@ -15,7 +15,9 @@ def make_ends(nums):
 array1 = [1, 2, 3]
 array2 = [1, 2, 3, 4]
 array3 = [7, 4, 6, 2]
+array4 = [6, 1]
 
 print("make_ends(" + str(array1) + ") -> " + str(make_ends(array1)))
 print("make_ends(" + str(array2) + ") -> " + str(make_ends(array2)))
 print("make_ends(" + str(array3) + ") -> " + str(make_ends(array3)))
+print("make_ends(" + str(array4) + ") -> " + str(make_ends(array4)))
