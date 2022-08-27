@@ -19,7 +19,11 @@ def count_evens(nums):
 array1 = [2, 1, 2, 3, 4]
 array2 = [2, 2, 0]
 array3 = [1, 3, 5]
+array4 = [0, 2, 4, 6]
+array5 = []
 
 print("count_evens(" + str(array1) + ") -> " + str(count_evens(array1)))
 print("count_evens(" + str(array2) + ") -> " + str(count_evens(array2)))
 print("count_evens(" + str(array3) + ") -> " + str(count_evens(array3)))
+print("count_evens(" + str(array4) + ") -> " + str(count_evens(array4)))
+print("count_evens(" + str(array5) + ") -> " + str(count_evens(array5)))
