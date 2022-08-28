@@ -13,13 +13,15 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p192267
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class BlueTicket {
     public static void main(String[] args) {
         System.out.println("blueTicket(9, 1, 0) -> " + blueTicket(9, 1, 0));
         System.out.println("blueTicket(9, 2, 0) -> " + blueTicket(9, 2, 0));
         System.out.println("blueTicket(6, 1, 4) -> " + blueTicket(6, 1, 4));
+        System.out.println("blueTicket(10, 0, 0) -> " + blueTicket(10, 0, 0));
+        System.out.println("blueTicket(0, 0, 0) -> " + blueTicket(0, 0, 0));
     }
 
     /**
