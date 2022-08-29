@@ -11,13 +11,15 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p172063
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class ExtraFont {
     public static void main(String[] args) {
         System.out.println("extraFront(\"Hello\") -> " + extraFront("He"));
         System.out.println("extraFront(\"ab\") -> " + extraFront("ab"));
         System.out.println("extraFront(\"H\") -> " + extraFront("H"));
+        System.out.println("extraFront(\"Test\") -> " + extraFront("Test"));
+        System.out.println("extraFront(\"Meowwoof\") -> " + extraFront("Meowwoof"));
     }
 
     /**
