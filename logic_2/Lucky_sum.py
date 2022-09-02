@@ -23,3 +23,6 @@ def lucky_sum(a, b, c):
 print("lucky_sum(1, 2, 3) -> " + str(lucky_sum(1, 2, 3)))
 print("lucky_sum(1, 2, 13) -> " + str(lucky_sum(1, 2, 13)))
 print("lucky_sum(1, 13, 3) -> " + str(lucky_sum(1, 13, 3)))
+print("lucky_sum(1, 13, 13) -> " + str(lucky_sum(1, 13, 13)))
+print("lucky_sum(6, 5, 2) -> " + str(lucky_sum(6, 5, 2)))
+print("lucky_sum(13, 2, 3) -> " + str(lucky_sum(13, 2, 3)))
