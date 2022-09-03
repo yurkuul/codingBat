@@ -21,3 +21,6 @@ def string_bits(str):
 print("string_bits('Hello') -> " + string_bits('Hello'))
 print("string_bits('Hi') -> " + string_bits('Hi'))
 print("string_bits('Heeololeo') -> " + string_bits('Heeololeo'))
+print("string_bits('hxaxpxpxy') -> " + string_bits('hxaxpxpxy'))
+print("string_bits('Chocoate') -> " + string_bits('Chocoate'))
+print("string_bits('') -> " + string_bits(''))
