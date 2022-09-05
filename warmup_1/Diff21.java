@@ -11,13 +11,15 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p116624
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class Diff21 {
     public static void main(String[] args) {
         System.out.println("diff21(19) -> " + diff21(19));
         System.out.println("diff21(10) -> " + diff21(10));
         System.out.println("diff21(21) -> " + diff21(21));
+        System.out.println("diff21(20) -> " + diff21(20));
+        System.out.println("diff21(100) -> " + diff21(100));
     }
 
     /**
