@@ -10,21 +10,25 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p196652
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class FrontAgain {
     public static void main(String[] args) {
         System.out.println("frontAgain(\"edited\") -> " + frontAgain("edited"));
         System.out.println("frontAgain(\"edit\") -> " + frontAgain("edit"));
         System.out.println("frontAgain(\"ed\") -> " + frontAgain("ed"));
+        System.out.println("frontAgain(\"\") -> " + frontAgain(""));
+        System.out.println("frontAgain(\"a\") -> " + frontAgain("a"));
     }
 
     /**
      * Given a string, return true if the first 2 chars in the string also appear
      * at the end of the string, such as with "edited".
      * 
-     * @param str String to be checked if the first 2 characters are the same as the ending 2 characters
-     * @return True if the first 2 characters are the same as the ending 2 characters, False otherwise
+     * @param str String to be checked if the first 2 characters are the same as
+     * the ending 2 characters.
+     * @return True if the first 2 characters are the same as the ending 2
+     * characters, False otherwise.
      * @since 0.0.1
      */
     public static boolean frontAgain(String str) {
