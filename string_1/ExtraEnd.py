@@ -7,9 +7,10 @@ extra_end('Hi') → 'HiHiHi'
 '''
 
 def extra_end(str):
-    end = str[len(str)-2:]
-    return end + end + end
+    end = str[len(str)-2:] #end = str[-2:]
+    return end*3
 
 print("extra_end('Hello') -> " + str(extra_end('Hello')))
 print("extra_end('ab') -> " + str(extra_end('ab')))
 print("extra_end('Hi') -> " + str(extra_end('Hi')))
+print("extra_end('wlkejrlwekr') -> " + str(extra_end('wlkejrlwekr')))
