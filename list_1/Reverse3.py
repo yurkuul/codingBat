@@ -10,13 +10,15 @@ see https://codingbat.com/prob/p192962
 '''
 
 def reverse3(nums):
-    nums[0:len(nums)] = [nums[len(nums)-1], nums[1], nums[0]]
+    nums.reverse()
     return nums
 
 array1 = [1, 2, 3]
 array2 = [5, 11, 9]
 array3 = [7, 0, 0]
+array4 = [0, 0, 0]
 
 print("reverse3(" + str(array1) + ") -> " + str(reverse3(array1)))
 print("reverse3(" + str(array2) + ") -> " + str(reverse3(array2)))
 print("reverse3(" + str(array3) + ") -> " + str(reverse3(array3)))
+print("reverse3(" + str(array4) + ") -> " + str(reverse3(array4)))
