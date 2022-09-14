@@ -15,7 +15,7 @@ import java.util.Arrays;
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p136254
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class MatchUp {
     public static void main(String[] args) {
@@ -23,6 +23,8 @@ public class MatchUp {
         int[] array2 = {2, 3, 10};
         int[] array3 = {2, 3, 5};
         int[] array4 = {2, 3, 3};
+        int[] array5 = {7, 10, 11};
+        int[] array6 = {9, 12, 13};
         System.out.println("matchUp(" + Arrays.toString(array1) + ", "
                              + Arrays.toString(array2) + ") -> "
                              + matchUp(array1, array2));
@@ -32,6 +34,9 @@ public class MatchUp {
         System.out.println("matchUp(" + Arrays.toString(array1) + ", "
                              + Arrays.toString(array4) + ") -> "
                              + matchUp(array1, array4));
+        System.out.println("matchUp(" + Arrays.toString(array5) + ", "
+                             + Arrays.toString(array6) + ") -> "
+                             + matchUp(array5, array6));
     }
 
     /**
