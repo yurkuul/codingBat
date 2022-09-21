@@ -15,7 +15,7 @@ import java.util.Map;
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p148813
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class MapShare {
     public static void main(String[] args) {
@@ -30,9 +30,14 @@ public class MapShare {
         map3.put("a", "aaa");
         map3.put("c", "meh");
         map3.put("d", "hi");
+        Map<String, String> map4 = new HashMap<String, String>();
+        map4.put("b", "ccc");
+        map4.put("d", "wow");
+        map4.put("c", "noo");
         System.out.println("mapShare(" + map1 + ") -> " + mapShare(map1));
         System.out.println("mapShare(" + map2 + ") -> " + mapShare(map2));
         System.out.println("mapShare(" + map3 + ") -> " + mapShare(map3));
+        System.out.println("mapShare(" + map4 + ") -> " + mapShare(map4));
     }
 
     /**
