@@ -27,7 +27,11 @@ def sum67(nums):
 array1 = [1, 2, 2]
 array2 = [1, 2, 2, 6, 99, 99, 7]
 array3 = [1, 1, 6, 7, 2]
+array4 = [6, 1, 6, 2, 6, 7]
+array5 = [10, 6, 7, 10, 22, 7]
 
 print("sum67(" + str(array1) + ") -> " + str(sum67(array1)))
 print("sum67(" + str(array2) + ") -> " + str(sum67(array2)))
 print("sum67(" + str(array3) + ") -> " + str(sum67(array3)))
+print("sum67(" + str(array4) + ") -> " + str(sum67(array4)))
+print("sum67(" + str(array5) + ") -> " + str(sum67(array5)))
