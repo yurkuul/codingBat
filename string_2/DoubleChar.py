@@ -20,3 +20,5 @@ def double_char(str):
 print("double_char('The') -> " + str(double_char('The')))
 print("double_char('AAbb') -> " + str(double_char('AAbb')))
 print("double_char('Hi-There') -> " + str(double_char('Hi-There')))
+print("double_char('') -> " + str(double_char('')))
+print("double_char('983274') -> " + str(double_char('983274')))
