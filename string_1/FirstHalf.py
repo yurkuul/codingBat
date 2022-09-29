@@ -12,3 +12,5 @@ def first_half(str):
 print("first_half('WooHoo') -> " + str(first_half('WooHoo')))
 print("first_half('HelloThere') -> " + str(first_half('HelloThere')))
 print("first_half('abcdef') -> " + str(first_half('abcdef')))
+print("first_half('') -> " + str(first_half('')))
+print("first_half('  ') -> " + str(first_half('  ')))
