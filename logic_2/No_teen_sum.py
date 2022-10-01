@@ -26,3 +26,5 @@ def fix_teen(n):
 print("no_teen_sum(1, 2, 3) -> " + str(no_teen_sum(1, 2, 3)))
 print("no_teen_sum(2, 13, 1) -> " + str(no_teen_sum(2, 13, 1)))
 print("no_teen_sum(2, 1, 14) -> " + str(no_teen_sum(2, 1, 14)))
+print("no_teen_sum(13, 19, 17) -> " + str(no_teen_sum(13, 19, 17)))
+print("no_teen_sum(15, 16, 15) -> " + str(no_teen_sum(15, 16, 15)))
