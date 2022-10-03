@@ -15,13 +15,15 @@ import java.util.Arrays;
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p178353
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class FizzArray2 {
     public static void main(String[] args) {
         System.out.println("fizzArray2(4) -> " + Arrays.toString(fizzArray2(4)));
         System.out.println("fizzArray2(10) -> " + Arrays.toString(fizzArray2(10)));
         System.out.println("fizzArray2(2) -> " + Arrays.toString(fizzArray2(2)));
+        System.out.println("fizzArray2(0) -> " + Arrays.toString(fizzArray2(0)));
+        System.out.println("fizzArray2(100) -> " + Arrays.toString(fizzArray2(100)));
     }
 
     /**
