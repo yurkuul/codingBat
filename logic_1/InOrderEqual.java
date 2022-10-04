@@ -12,7 +12,7 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p140272
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class InOrderEqual {
     public static void main(String[] args) {
@@ -22,6 +22,12 @@ public class InOrderEqual {
                             + inOrderEqual(5, 7, 6, false));
         System.out.println("inOrderEqual(5, 5, 7, true) -> "
                             + inOrderEqual(5, 5, 7, true));
+        System.out.println("inOrderEqual(1, 11, 111, true) -> "
+                            + inOrderEqual(1, 11, 111, true));
+        System.out.println("inOrderEqual(5, 6, 7, false) -> "
+                            + inOrderEqual(5, 6, 7, false));
+        System.out.println("inOrderEqual(8, 8, 8, true) -> "
+                            + inOrderEqual(8, 8, 8, true));
     }
 
     /**
