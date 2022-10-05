@@ -17,7 +17,11 @@ def rotate_left3(nums):
 array1 = [1, 2, 3]
 array2 = [5, 11, 9]
 array3 = [7, 0, 0]
+array4 = [5, 2, 8]
+array5 = [0, 0, 1]
 
 print("rotate_left3(" + str(array1) + ") -> " + str(rotate_left3(array1)))
 print("rotate_left3(" + str(array2) + ") -> " + str(rotate_left3(array2)))
 print("rotate_left3(" + str(array3) + ") -> " + str(rotate_left3(array3)))
+print("rotate_left3(" + str(array4) + ") -> " + str(rotate_left3(array4)))
+print("rotate_left3(" + str(array5) + ") -> " + str(rotate_left3(array5)))
