@@ -12,13 +12,15 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p159531
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class CigarParty {
     public static void main(String[] args) {
         System.out.println("cigarParty(30, false) -> " + cigarParty(30, false));
         System.out.println("cigarParty(50, false) -> " + cigarParty(50, false));
         System.out.println("cigarParty(70, true) -> " + cigarParty(70, true));
+        System.out.println("cigarParty(70, true) -> " + cigarParty(40, true));
+        System.out.println("cigarParty(70, true) -> " + cigarParty(100, true));
     }
 
     /**
