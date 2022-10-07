@@ -11,13 +11,15 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p172267
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class FirstHalf {
     public static void main(String[] args) {
         System.out.println("firstHalf(\"WooHoo\") -> " + firstHalf("WooHoo"));
         System.out.println("firstHalf(\"HelloThere\") -> " + firstHalf("HelloThere"));
         System.out.println("firstHalf(\"abcdef\") -> " + firstHalf("abcdef"));
+        System.out.println("firstHalf(\"  \") -> " + firstHalf("  "));
+        System.out.println("firstHalf(\"test\") -> " + firstHalf("test"));
     }
     
     /**
