@@ -13,13 +13,16 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p134250
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class XYBalance {
     public static void main(String[] args) {
         System.out.println("xyBalance(\"aaxbby\") -> " + xyBalance("aaxbby"));
         System.out.println("xyBalance(\"aaxbb\") -> " + xyBalance("aaxbb"));
         System.out.println("xyBalance(\"yaaxbb\") -> " + xyBalance("yaaxbb"));
+        System.out.println("xyBalance(\"xyxyxyxyxyy\") -> " + xyBalance("xyxyxyxyxyy"));
+        System.out.println("xyBalance(\"yyyyyz\") -> " + xyBalance("yyyyyz"));
+        System.out.println("xyBalance(\"  \") -> " + xyBalance("  "));
     }
 
     /**
