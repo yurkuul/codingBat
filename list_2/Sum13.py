@@ -21,11 +21,14 @@ def sum13(nums):
         index += 1
     return total
     
-
 array1 = [1, 2, 2, 1]
 array2 = [1, 1]
 array3 = [1, 2, 2, 1, 13]
+array4 = [13, 1, 6, 2, 8, 9]
+array5 = [1, 7, 1, 3, 13, 50, 11]
 
 print("sum13(" + str(array1) + ") -> " + str(sum13(array1)))
 print("sum13(" + str(array2) + ") -> " + str(sum13(array2)))
 print("sum13(" + str(array3) + ") -> " + str(sum13(array3)))
+print("sum13(" + str(array4) + ") -> " + str(sum13(array4)))
+print("sum13(" + str(array5) + ") -> " + str(sum13(array5)))
