@@ -12,7 +12,7 @@ import java.util.Arrays;
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p146449
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class MiddleWay {
     public static void main(String[] args) {
@@ -22,9 +22,12 @@ public class MiddleWay {
         int[] array4 = {3, 8, 0};
         int[] array5 = {5, 2, 9};
         int[] array6 = {1, 4, 5};
+        int[] array7 = {9, 10, 11};
+        int[] array8 = {1, 0, 1};
         System.out.println("middleWay(" + Arrays.toString(array1) + ", " + Arrays.toString(array2) + ") -> " + Arrays.toString(middleWay(array1, array2)));
         System.out.println("middleWay(" + Arrays.toString(array3) + ", " + Arrays.toString(array4) + ") -> " + Arrays.toString(middleWay(array3, array4)));
         System.out.println("middleWay(" + Arrays.toString(array5) + ", " + Arrays.toString(array6) + ") -> " + Arrays.toString(middleWay(array5, array6)));
+        System.out.println("middleWay(" + Arrays.toString(array7) + ", " + Arrays.toString(array8) + ") -> " + Arrays.toString(middleWay(array7, array8)));
     }
 
     /**
