@@ -14,3 +14,5 @@ def diff21(n):
 print("diff21(19) -> " + str(diff21(19)))
 print("diff21(10) -> " + str(diff21(10)))
 print("diff21(21) -> " + str(diff21(21)))
+print("diff21(30) -> " + str(diff21(30)))
+print("diff21(0) -> " + str(diff21(0)))
