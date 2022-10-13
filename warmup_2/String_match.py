@@ -23,3 +23,5 @@ def string_match(a, b):
 print("string_match('xxcaazz', 'xxbaaz') -> " + str(string_match('xxcaazz', 'xxbaaz')))
 print("string_match('abc', 'abc') -> " + str(string_match('abc', 'abc')))
 print("string_match('abc', 'axc') -> " + str(string_match('abc', 'axc')))
+print("string_match('abc', 'cba') -> " + str(string_match('abc', 'cba')))
+print("string_match('tpoasgwet', 'tptafnwet') -> " + str(string_match('tpoasgwet', 'tptafnwet')))
