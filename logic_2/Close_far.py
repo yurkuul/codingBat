@@ -21,3 +21,5 @@ def close_far(a, b, c):
 print("close_far(1, 2, 10) -> " + str(close_far(1, 2, 10)))
 print("close_far(1, 2, 3) -> " + str(close_far(1, 2, 3)))
 print("close_far(4, 1, 3) -> " + str(close_far(4, 1, 3)))
+print("close_far(1, 1, 1) -> " + str(close_far(1, 1, 1)))
+print("close_far(1, 2, 4) -> " + str(close_far(1, 2, 4)))
