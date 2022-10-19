@@ -14,7 +14,11 @@ def has23(nums):
 array1 = [2, 5]
 array2 = [4, 3]
 array3 = [4, 5]
+array4 = [2, 3]
+array5 = [3, 3]
 
 print("has23(" + str(array1) + ") -> " + str(has23(array1)))
 print("has23(" + str(array2) + ") -> " + str(has23(array2)))
 print("has23(" + str(array3) + ") -> " + str(has23(array3)))
+print("has23(" + str(array4) + ") -> " + str(has23(array4)))
+print("has23(" + str(array5) + ") -> " + str(has23(array5)))
