@@ -12,7 +12,7 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p129952
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class GetSandwich {
     public static void main(String[] args) {
@@ -22,6 +22,10 @@ public class GetSandwich {
                              + getSandwich("xxbreadjambreadyy"));
         System.out.println("getSandwich(\"xxbreadyy\") -> "
                              + getSandwich("xxbreadyy"));
+        System.out.println("getSandwich(\"breadbread\") -> "
+                             + getSandwich("breadbread"));
+        System.out.println("getSandwich(\"jambreadjam\") -> "
+                             + getSandwich("jambreadjam"));
     }
 
     /**
