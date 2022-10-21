@@ -13,7 +13,7 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p126880
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class EndOther {
     public static void main(String[] args) {
@@ -23,6 +23,10 @@ public class EndOther {
                              + endOther("AbC", "HiaBc"));
         System.out.println("endOther(\"abc\", \"abXabc\") -> "
                              + endOther("abc", "abXabc"));
+        System.out.println("endOther(\"x x\", \"xxx\") -> "
+                             + endOther("x x", "xxx"));
+        System.out.println("endOther(\"  \", \"wow  \") -> "
+                             + endOther("  ", "wow  "));
     }
 
     /**
