@@ -10,13 +10,15 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p154188
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class InOrder {
     public static void main(String[] args) {
         System.out.println("inOrder(1, 2, 4, false) -> " + inOrder(1, 2, 4, false));
         System.out.println("inOrder(1, 2, 1, false) -> " + inOrder(1, 2, 1, false));
         System.out.println("inOrder(1, 1, 2, true) -> " + inOrder(1, 1, 2, true));
+        System.out.println("inOrder(1, 1, 1, true) -> " + inOrder(1, 1, 1, true));
+        System.out.println("inOrder(1, 1, 1, false) -> " + inOrder(1, 1, 1, false));
     }
 
     /**
