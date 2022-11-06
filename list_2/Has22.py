@@ -18,7 +18,11 @@ def has22(nums):
 array1 = [1, 2, 2]
 array2 = [1, 2, 1, 2]
 array3 = [2, 1, 2]
+array4 = [2, 2, 2]
+array5 = []
 
 print("has22(" + str(array1) + ") -> " + str(has22(array1)))
 print("has22(" + str(array2) + ") -> " + str(has22(array2)))
 print("has22(" + str(array3) + ") -> " + str(has22(array3)))
+print("has22(" + str(array4) + ") -> " + str(has22(array4)))
+print("has22(" + str(array5) + ") -> " + str(has22(array5)))
