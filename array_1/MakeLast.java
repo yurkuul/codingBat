@@ -15,7 +15,7 @@ import java.util.Arrays;
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p137188
  * @since 17.0.1
- * @version 0.0.2
+ * @version 0.0.3
  */
 public class MakeLast {
     public static void main(String[] args) {
@@ -23,6 +23,8 @@ public class MakeLast {
         int[] array2 = {1, 2};
         int[] array3 = {3};
         int[] array4 = {0};
+        int[] array5 = {0, 0, 0, 1};
+        int[] array6 = {1, 0};
         System.out.println("makeLast(" + Arrays.toString(array1) + ") -> "
                              + Arrays.toString(makeLast(array1)));
         System.out.println("makeLast(" + Arrays.toString(array2) + ") -> "
@@ -31,6 +33,10 @@ public class MakeLast {
                              + Arrays.toString(makeLast(array3)));
         System.out.println("makeLast(" + Arrays.toString(array4) + ") -> "
                              + Arrays.toString(makeLast(array4)));
+        System.out.println("makeLast(" + Arrays.toString(array5) + ") -> "
+                             + Arrays.toString(makeLast(array5)));
+        System.out.println("makeLast(" + Arrays.toString(array6) + ") -> "
+                             + Arrays.toString(makeLast(array6)));
     }
 
     /**
