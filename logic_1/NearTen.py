@@ -13,3 +13,5 @@ def near_ten(num):
 print("near_ten(12) -> " + str(near_ten(12)))
 print("near_ten(17) -> " + str(near_ten(17)))
 print("near_ten(19) -> " + str(near_ten(19)))
+print("near_ten(210) -> " + str(near_ten(210)))
+print("near_ten(91) -> " + str(near_ten(91)))
