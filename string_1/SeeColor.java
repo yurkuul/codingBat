@@ -11,7 +11,7 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p199216
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class SeeColor {
     public static void main(String[] args) {
@@ -19,6 +19,10 @@ public class SeeColor {
         System.out.println("seeColor(\"xxred\") -> " + seeColor("xxred"));
         System.out.println("seeColor(\"blueTimes\") -> "
                             + seeColor("blueTimes"));
+        System.out.println("seeColor(\"bluered\") -> "
+                            + seeColor("bluered"));
+        System.out.println("seeColor(\"redblue\") -> " 
+                            + seeColor("bluered"));
     }
 
     /**
