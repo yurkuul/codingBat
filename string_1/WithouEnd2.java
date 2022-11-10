@@ -11,13 +11,16 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p174254
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class WithouEnd2 {
     public static void main(String[] args) {
         System.out.println("withouEnd2(\"Hello\") -> " + withouEnd2("Hello"));
         System.out.println("withouEnd2(\"abc\") -> " + withouEnd2("abc"));
         System.out.println("withouEnd2(\"ab\") -> " + withouEnd2("ab"));
+        System.out.println("withouEnd2(\"  \") -> " + withouEnd2("  "));
+        System.out.println("withouEnd2(\"aca\") -> " + withouEnd2("aca"));
+        System.out.println("withouEnd2(\"test12390580293\") -> " + withouEnd2("test12390580293"));
     }
 
     /**
