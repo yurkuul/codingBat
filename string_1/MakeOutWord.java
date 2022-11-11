@@ -12,13 +12,16 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p184030
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class MakeOutWord {
     public static void main(String[] args) {
         System.out.println("makeOutWord(\"<<>>\", \"Yay\") -> " + makeOutWord("<<>>", "Yay"));
         System.out.println("makeOutWord(\"<<>>\", \"WooHoo\") -> " + makeOutWord("<<>>", "WooHoo"));
         System.out.println("makeOutWord(\"[[]]\", \"word\") -> " + makeOutWord("[[]]", "word"));
+        System.out.println("makeOutWord(\"<3<3\", \"you\") -> " + makeOutWord("<3<3", "you"));
+        System.out.println("makeOutWord(\"~~~~\", \"crossout\") -> " + makeOutWord("~~~~", "crossout"));
+        System.out.println("makeOutWord(\"empty\", \"  \") -> " + makeOutWord("empty", "  "));
     }
 
     /**
