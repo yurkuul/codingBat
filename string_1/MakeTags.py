@@ -10,7 +10,7 @@ make_tags('cite', 'Yay') → '<cite>Yay</cite>'
 @author LZ-FSDev
 @see https://codingbat.com/prob/p132290
 @since 3.10.2
-@version 0.0.1
+@version 0.0.2
 '''
 
 def make_tags(tag, word):
@@ -19,3 +19,5 @@ def make_tags(tag, word):
 print("make_tags('i', 'Yay') -> " + str(make_tags('i', 'Yay')))
 print("make_tags('i', 'Hello') -> " + str(make_tags('i', 'Hello')))
 print("make_tags('cite', 'Yay') -> " + str(make_tags('cite', 'Yay')))
+print("make_tags('<<', 'test') -> " + str(make_tags('<<', 'test')))
+print("make_tags('~', '(._.)') -> " + str(make_tags('~', '(._.)')))
