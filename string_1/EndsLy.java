@@ -10,13 +10,15 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p103895
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class EndsLy {
     public static void main(String[] args) {
         System.out.println("endsLy(\"oddly\") -> " + endsLy("oddly"));
         System.out.println("endsLy(\"y\") -> " + endsLy("y"));
         System.out.println("endsLy(\"oddy\") -> " + endsLy("oddy"));
+        System.out.println("endsLy(\"lyyl\") -> " + endsLy("lyyl"));
+        System.out.println("endsLy(\"lyly \") -> " + endsLy("lyly "));
     }
 
     /**
