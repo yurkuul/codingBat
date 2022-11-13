@@ -10,7 +10,7 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p103895
  * @since 17.0.1
- * @version 0.0.2
+ * @version 0.0.3
  */
 public class EndsLy {
     public static void main(String[] args) {
@@ -23,15 +23,17 @@ public class EndsLy {
 
     /**
      * Given a string, return true if it ends in "ly".
+     * Accounts for white space at the end of 'str'.
      * 
      * @param str A String.
      * @return true if str ends in "ly".
-     * @since 0.0.1
+     * @since 0.0.2
      */
     public static boolean endsLy(String str) {
         if (str.length() < 2) {
             return false;
         }
+        str = str.trim();
         return str.substring(str.length()-2).equals("ly");
     }
 }
