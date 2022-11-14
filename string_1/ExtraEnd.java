@@ -11,13 +11,15 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p108853
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class ExtraEnd {
     public static void main(String[] args) {
         System.out.println("extraEnd(\"Hello\") -> " + extraEnd("Hello"));
         System.out.println("extraEnd(\"ab\") -> " + extraEnd("ab"));
         System.out.println("extraEnd(\"Hi\") -> " + extraEnd("Hi"));
+        System.out.println("extraEnd(\"  \") -> " + extraEnd("  "));
+        System.out.println("extraEnd(\" a n\") -> " + extraEnd(" a n"));
     }
 
     /**
