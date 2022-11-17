@@ -15,3 +15,5 @@ def combo_string(a, b):
 print("combo_string('Hello', 'hi') -> " + str(combo_string('Hello', 'hi')))
 print("combo_string('hi', 'Hello') -> " + str(combo_string('hi', 'Hello')))
 print("combo_string('aaa', 'b') -> " + str(combo_string('aaa', 'b')))
+print("combo_string('owo', '') -> " + str(combo_string('owo', '')))
+print("combo_string('  ', 'space') -> " + str(combo_string('  ', 'space')))
