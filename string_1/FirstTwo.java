@@ -12,13 +12,15 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p163411
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class FirstTwo {
     public static void main(String[] args) {
         System.out.println("firstTwo(\"Hello\") -> " + firstTwo("Hello"));
         System.out.println("firstTwo(\"abcdefg\") -> " + firstTwo("abcdefg"));
         System.out.println("firstTwo(\"ab\") -> " + firstTwo("ab"));
+        System.out.println("firstTwo(\" o\") -> " + firstTwo(" o"));
+        System.out.println("firstTwo(\"_Test\") -> " + firstTwo("_Test"));
     }
 
     /**
