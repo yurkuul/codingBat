@@ -16,3 +16,6 @@ def first_two(str):
 print("first_two('Hello') -> " + str(first_two('Hello')))
 print("first_two('abcdefg') -> " + str(first_two('abcdefg')))
 print("first_two('ab') -> " + str(first_two('ab')))
+print("first_two(' o') -> " + str(first_two(' o')))
+print("first_two('') -> " + str(first_two('')))
+print("first_two('x') -> " + str(first_two('x')))
