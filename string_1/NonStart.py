@@ -12,3 +12,5 @@ def non_start(a, b):
 print("non_start('Hello', 'There') -> " + str(non_start('Hello', 'There')))
 print("non_start('java', 'code') -> " + str(non_start('java', 'code')))
 print("non_start('shotl', 'java') -> " + str(non_start('shotl', 'java')))
+print("non_start(' _', '_ _') -> " + str(non_start(' _', '_ _')))
+print("non_start('wow', ' w') -> " + str(non_start('wow', ' w')))
