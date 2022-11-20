@@ -11,3 +11,5 @@ def hello_name(name):
 print("hello_name('Bob') -> " + str(hello_name('Bob')))
 print("hello_name('Alice') -> " + str(hello_name('Alice')))
 print("hello_name('X') -> " + str(hello_name('X')))
+print("hello_name(' ') -> " + str(hello_name(' ')))
+print("hello_name('Hello') -> " + str(hello_name('Hello')))
