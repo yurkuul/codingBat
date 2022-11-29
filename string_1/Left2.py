@@ -8,7 +8,7 @@ left2('Hi') → 'Hi'
 @author LZ-FSDev
 @see https://codingbat.com/prob/p160545
 @since 3.10.2
-@version 0.0.1
+@version 0.0.2
 '''
 
 def left2(str):
@@ -19,3 +19,5 @@ def left2(str):
 print("left2('Hello') -> " + str(left2('Hello')))
 print("left2('java') -> " + str(left2('java')))
 print("left2('Hi') -> " + str(left2('Hi')))
+print("left2('  t _') -> " + str(left2('  t _')))
+print("left2('_._') -> " + str(left2('_._')))
