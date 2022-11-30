@@ -12,3 +12,5 @@ def make_out_word(out, word):
 print("make_out_word('<<>>', 'Yay') -> " + str(make_out_word('<<>>', 'Yay')))
 print("make_out_word('<<>>', 'WooHoo') -> " + str(make_out_word('<<>>', 'WooHoo')))
 print("make_out_word('[[]]', 'word') -> " + str(make_out_word('[[]]', 'word')))
+print("make_out_word('.__.', 'test') -> " + str(make_out_word('.__.', 'test')))
+print("make_out_word('hi', 'ih') -> " + str(make_out_word('hi', 'ih')))
