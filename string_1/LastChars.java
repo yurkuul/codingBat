@@ -12,7 +12,7 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p138183
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class LastChars {
     public static void main(String[] args) {
@@ -22,6 +22,10 @@ public class LastChars {
                              + lastChars("yo", "java"));
         System.out.println("lastChars(\"hi\", \"\") -> "
                              + lastChars("hi", ""));
+        System.out.println("lastChars(\"h\", \"i\") -> "
+                             + lastChars("h", "i"));
+        System.out.println("lastChars(\"\", \"\") -> "
+                             + lastChars("", ""));
     }
 
     /**
