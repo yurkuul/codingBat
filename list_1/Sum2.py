@@ -20,7 +20,11 @@ def sum2(nums):
 array1 = [1, 2, 3]
 array2 = [1, 1]
 array3 = [1, 1, 1, 1]
+array4 = []
+array5 = [7]
 
 print("sum2(" + str(array1) + ") -> " + str(sum2(array1)))
 print("sum2(" + str(array2) + ") -> " + str(sum2(array2)))
 print("sum2(" + str(array3) + ") -> " + str(sum2(array3)))
+print("sum2(" + str(array4) + ") -> " + str(sum2(array4)))
+print("sum2(" + str(array5) + ") -> " + str(sum2(array5)))
