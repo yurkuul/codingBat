@@ -12,7 +12,7 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p162477
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class TheEnd {
     public static void main(String[] args) {
@@ -22,6 +22,10 @@ public class TheEnd {
                              + theEnd("Hello", false));
         System.out.println("theEnd(\"oh\", true) -> "
                              + theEnd("oh", true));
+        System.out.println("theEnd(\"nani\", false) -> "
+                             + theEnd("nani", false));
+        System.out.println("theEnd(\"test \", false) -> "
+                             + theEnd("test ", false));
     }
 
     /**
