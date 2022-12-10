@@ -11,13 +11,15 @@
  * @author LZ-FSDev
  * @see https://codingbat.com/prob/p161056
  * @since 17.0.1
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class MakeAbba {
     public static void main(String[] args) {
         System.out.println("makeAbba(\"Hi\", \"Bye\") -> " + makeAbba("Hi", "Bye"));
         System.out.println("makeAbba(\"Yo\", \"Alice\") -> " + makeAbba("Yo", "Alice"));
         System.out.println("makeAbba(\"What\", \"Up\") -> " + makeAbba("What", "Up"));
+        System.out.println("makeAbba(\"Hey\", \"yo\") -> " + makeAbba("Hey", "yo"));
+        System.out.println("makeAbba(\"Meow\", \" Woof\") -> " + makeAbba("Meow", " Woof"));
     }
 
     /**
